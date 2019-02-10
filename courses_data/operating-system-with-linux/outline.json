@@ -1,0 +1,193 @@
+{
+  "title":"Operating System with Linux",
+  "description":"Learn about Linux Operating System.",
+  "lecturer":"Arif Butt",
+  "lectures":[
+    {
+      "title":"Introduction to Course",
+      "runtime":"4:01",
+      "description":"An introduction to a series of Linux Lectures",
+      "videoID":"ndl79-VDl50"
+    },
+    {
+      "title":"Setting-up Linux Environment",
+      "runtime":"21:52",
+      "description":"This session deals with setting up your Linux work environment using some virtualization tool (Sun Virtual Box) and how to set up a shared folder on your host machine and how to access it on your guest machine using shared folder concept.",
+      "videoID":"wO0Y1IJIajM"
+    },
+    {
+      "title":"Introduction to Linux Environment",
+      "runtime":"37:06",
+      "description":"This session covers a basic intro to history of Linux, its distributions, shells, internal and external commands, root file system, getting help in Linux and the use of man pages",
+      "videoID":"G-5NDYFwBH8"
+    },
+    {
+      "title":"Basic Shell Commands-I",
+      "runtime":"23:41",
+      "description":"This session covers some basic shell commands like pwd, whoami, ls, passwd, sudo, mkdir, rmdir, touch, cat, more, less, head, tail, cp, mv, rm, type, help, alias, unalias, cal, date, shutdown",
+      "videoID":"_YPvqThyM4c"
+    },
+    {
+      "title":"Basic Shell Commands-II",
+      "runtime":"46:52",
+      "description":"This session is continuation of previous session, and covers some more shell commands like wc, sort, uniq, grep, cut, paste, comm, cmp, diff, whereas, which, locate, find, tar, gzip, gunzip",
+      "videoID":"dUkskLi70nI"
+    },
+    {
+      "title":"Linux vim Editor",
+      "runtime":"26:22",
+      "description":"This session demonstrate the use of Linux vim editor",
+      "videoID":"7tFniseSLzM"
+    },
+    {
+      "title":"Bash Shell Revisited",
+      "runtime":"49:25",
+      "description":"This session describes the types of Linux shell, internal and external commands, non-interactive mode, major features of bash shell, shell wild cards and shell expansion. Last but not the least it explains the working of a shell using a flow chart",
+      "videoID":"tuWDi53pomU"
+    },
+    {
+      "title":"Process Management",
+      "runtime":"1:00:04",
+      "description":"This session describes the pictorial difference between a program file and a process. Executable file formats like elf. Running a process in back ground, suspending it and switching to foreground and background. Basic commands related to process management like ps, fg, bg, top, vmstat, free etc",
+      "videoID":"2bYGoOTXrUg"
+    },
+    {
+      "title":"IO Redirection",
+      "runtime":"39:31",
+      "description":"This session describes the concept of I/O Redirection in UNIX. The input, output and error redirection are described separately and in combination. The explanation involves the concept of PPFDT with redirection. Lastly touches the concept of copy descriptor and its usage",
+      "videoID":"ik6TvPquVk8"
+    },
+    {
+      "title":"Inter-Process Communication",
+      "runtime":"36:53",
+      "description":"This session basically gives a bird's eye view of UNIX Inter-Process Communication mechanisms. Particularly describes the use of pipes and fifos on the shell.",
+      "videoID":"ZoDRVBdqegY"
+    },
+    {
+      "title":"Signal Handling",
+      "runtime":"22:23",
+      "description":"This session describes signals in UNIX, their default behavior, catchable and non-catchable signals, how they are handled and ignored. The use of kill command to send signals to different processes running in the system",
+      "videoID":"BgYTxYDlCio"
+    },
+    {
+      "title":"Process Scheduling",
+      "runtime":"41:46",
+      "description":"This session starts with a brief overview of scheduling algorithms. Describe UNIX SVR3 scheduling. Changing priority of processes using nice and renice command and schedtool",
+      "videoID":"3ap2kU4bA9E"
+    },
+    {
+      "title":"The /proc directory",
+      "runtime":"31:33",
+      "description":"This session gives an overview of the /proc directory, a window to the running Linux Kernel.",
+      "videoID":"lLLOhqr5Io0"
+    },
+    {
+      "title":"Task Scheduling",
+      "runtime":"31:59",
+      "description":"This session deals with scheduling processes/jobs/tasks/cmds/ scripts automatically at a specified date/time on recurring basis using cron and anacron utilities. It also touch upon at and batch tools which are used for one time execution of jobs.",
+      "videoID":"WLu1csgMMvs"
+    },
+    {
+      "title":"Software Installation",
+      "runtime":"42:22",
+      "description":"This session deals with different package formats and package managers. We will learn to install packages using binary packages as well as source packages. Will cover use of tools like apt-get and dpkg",
+      "videoID":"vX2whCYjhec"
+    },
+    {
+      "title":"User Management",
+      "runtime":"52:05",
+      "description":"This session discusses the concept of users and groups in Linux. It covers all the commands like id, su, sudo, visudo, useradd, userdel, usermod, chage, chfn, finger, groupadd, groupdel, groupmod. It also discuss all the configuration files related to user and group management in Linux",
+      "videoID":"eA3YOhtWHQk"
+    },
+    {
+      "title":"Disk Geometry",
+      "runtime":"32:21",
+      "description":"This session deals with Spinning and Solid state disk. The working of spinning disk and its interfaces (IDE, ATA, SATA, SCSI, SAS) are explained.  The concept of Logical Block Addressing and its mapping on CHS address is explained",
+      "videoID":"JNKhmSynRVM"
+    },
+    {
+      "title":"Disk Partitioning",
+      "runtime":"45:18",
+      "description":"This session deals with the importance of partitioning a hard disk. Discuss different types of partition tables specially the break down of MBR. Covers different tools used for partitioning a hard disk like fdisk, gdisk, parted, gparted, cfdisk, sfdisk",
+      "videoID":"N-rrmeP1O2g"
+    },
+    {
+      "title":"Disk Formatting",
+      "runtime":"25:07",
+      "description":"This session describes the basic functionalities that a basic file system should offer. Will compare different file systems like ext2/3/4, reiserfs, hpfs, minix, ntfs, vfat, xfs and zfs. Use tools like mkfs, mke2fs, mkntfs, mkfs.fat, mkfs.minix to put a file system on a partition",
+      "videoID":"2w_kdcdVRMo"
+    },
+    {
+      "title":"File System Mounting",
+      "runtime":"41:40",
+      "description":"This session describes the concept of file system mounting, and discuss different related configuration files. Covers different related commands like mount, umount, lsblk, blkid. Also touch upon maintaining integrity of file system using commands like fsck, e2fsck, fsck.fat, fsck.nfs",
+      "videoID":"HootdM9BgZw"
+    },
+    {
+      "title":" File System Architecture",
+      "runtime":"41:25",
+      "description":"This session describes the schematic view of a standard UNIX file system by describing the contents of boot block super block, inode block, and data blocks. It describes what actually happens behind the curtain when a user creates, accesses and deletes a file and how Linux keep track of opened files by a process. It also uses commands like df, du, lsof, fuser, and tune2fs to perform these tasks",
+      "videoID":"58WJZbcNj2E"
+    },
+    {
+      "title":"Hard and Soft Links",
+      "runtime":"20:06",
+      "description":"This session describes how the system creates hard and soft links and how they are managed by the system",
+      "videoID":"g8xZgtuYiWI"
+    },
+    {
+      "title":"File Permissions",
+      "runtime":"49:45",
+      "description":"This lecture deals with standard file permissions. How to change them using symbolic and octal way. It also describes with default permissions and the use of umask",
+      "videoID":"tEYYasCVxRc"
+    },
+    {
+      "title":"Special File Permissions",
+      "runtime":"38:47",
+      "description":"This lecture deals with special file permissions. Saved SUID bit on files, Saved SGID bit on files and directories, Sticky bit on files and directories.",
+      "videoID":"6CJtdvL9P-Y"
+    },
+    {
+      "title":"Access Control Lists",
+      "runtime":"45:13",
+      "description":"This session deals with security on files using Access Control List. Discusses Discretionary Access control and Mendatory Access control. How ACLs can be set on files. Also talk about default ACLs or ACLs on directories",
+      "videoID":"sG0d2vaQGuE"
+    },
+    {
+      "title":"Device Files",
+      "runtime":"31:38",
+      "description":"This lecture starts with an introduction to seven File Types in Linux, gives a bird’s eye view of device files. Describes the contents of /dev directory. Describes Major and minor numbers and shows how you can create your own device files. Finally discusses important /dev/ directory files like zero, null, full, random, urandom and ttys",
+      "videoID":"MOP6sfXVKcY"
+    },
+    {
+      "title":"Terminal Attributes",
+      "runtime":"43:44",
+      "description":"This lecture gives an overview of Terminal Devices by giving a comparison between disk and terminal files. Talks about attributes of terminal driver and how can we examine current attributes and change attributes using stty command. Finally give an overview of Canonical and Non-canonical mode of terminal drivers.",
+      "videoID":"f-cPGVQWO_U"
+    },
+    {
+      "title":"Time Management",
+      "runtime":"40:14",
+      "description":"This lecture starts with an introduction to Real time and Process time. Gives an overview of UNIX epoch, Linux hardware and system clocks. How to configure Linux Time Zones and Locales.",
+      "videoID":"FcXoUN0PyPY"
+    },
+    {
+      "title":"Managing Services using systemd",
+      "runtime":"38:42",
+      "description":"This lecture starts with an introduction to  Linux system daemon. Gives an overview of to systemd unit files, specially Target Unit Files and Service Unit Files. Shell commands to manage services using systemctl. Finally writing/running a basic service of your own.",
+      "videoID":"kMXe83Gd840"
+    },
+    {
+      "title":"Linux Log Files",
+      "runtime":"33:18",
+      "description":"This lecture deals with Introduction to Linux Log files, talk about some special log files like btmp, wtmp and utmp. An introduction to rsyslog daemon, how to configure rsyslogd and creating and testing our own log messages. Finally talk about rotating the Log files",
+      "videoID":"WCMUcoY9K7I"
+    },
+    {
+      "title":"Booting Process",
+      "runtime":"57:41",
+      "description":"This session describes the Linux Booting Process in detail by dividing it into five phases: BIOS / UEFI Initialization, Master Boot Record, Boot Loader, Kernel Initialization,  init or  systemd Process",
+      "videoID":"7TSPch57gVk"
+    }
+  ]
+}

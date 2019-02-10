@@ -1,0 +1,37 @@
+{
+  "title":"Operating System with Linux",
+  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, fuga.",
+  "lecturer":"Arif Butt",
+  "lectures":[
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    },
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    },
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    },
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    },
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    },
+    {
+      "title":"asf",
+      "runtime":"zxc",
+      "description":"123"
+    }
+  ]
+}

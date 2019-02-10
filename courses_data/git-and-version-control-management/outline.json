@@ -1,0 +1,103 @@
+{
+  "title":"Git and Version Control System",
+  "description":"Learn about git and version control management on windows os.",
+  "lecturer":"Bilal Shahzad",
+  "lectures":[
+    {
+      "title":"What is Version Management",
+      "runtime":"5:08",
+      "description":"An introduction to version management and version management systems",
+      "videoID":"okcpoxznT2E"
+    },
+    {
+      "title":"Introduction to Git",
+      "runtime":"4:01",
+      "description":"This session deals with What is is git? How you work with git?",
+      "videoID":"IXuJTRKKdc"
+    },
+    {
+      "title":"Installation of Git",
+      "runtime":"1:50",
+      "description":"This session covers How to download & install git on your machine",
+      "videoID":"o5CtzVFVL4s"
+    },
+    {
+      "title":"Playing with Git",
+      "runtime":"17.07",
+      "description":"This session covers Creating a New repository (git init) Adding files to Staging Commit a change set.",
+      "videoID":"SAbQh-XytWc"
+    },
+    {
+      "title":"Branching in git",
+      "runtime":"6:16",
+      "description":"This session covers Recap of part 4 What is branching in git How commits are made with multiple branches",
+      "videoID":"tjX2V-NN8rQ"
+    },
+    {
+      "title":"Branching Demo I",
+      "runtime":"14:30",
+      "description":"This session covers Create New branch How branch pointers work Switching from one point to other point",
+      "videoID":"GpVB7EOcNMk"
+    },
+    {
+      "title":"Branching Demo II",
+      "runtime":"14:50",
+      "description":"This session describes Git merging when a non-conflicting commits have been made in destination branch Git merging when a conflicting commit/s have been made in destination branch",
+      "videoID":"Gzy7g2EMMRo"
+    },
+    {
+      "title":"Introduction to GitHub",
+      "runtime":"11:44",
+      "description":"This session describes Introduction to GitHub (Web based Git repository hosting service)",
+      "videoID":"bPA1dLcvphM"
+    },
+    {
+      "title":"Introduction to Remote Repositories",
+      "runtime":"6:58",
+      "description":"This session describes Introduction to Remote Repositories",
+      "videoID":"ZfB8-85Rmiw"
+    },
+    {
+      "title":"Remote Repository Demo I",
+      "runtime":"18:45",
+      "description":"This session basically gives a bird's eye view of Git clone Git pull Git push.",
+      "videoID":"QgvYJoEKqrY"
+    },
+    {
+      "title":"Remote Repository Demo II (Branching)",
+      "runtime":"14:55",
+      "description":"This session describes Creating Local/Remote branches Push & Pull changes",
+      "videoID":"4_6EdT1WlP0"
+    },
+    {
+      "title":"TortoiseGit Installation",
+      "runtime":"2:21",
+      "description":"This session starts with a brief overview of Git GUI clients Download & Install TortoiseGit",
+      "videoID":"tpxfXKHrJtA"
+    },
+    {
+      "title":"TortoiseGit Demo I",
+      "runtime":"15:06",
+      "description":"This session gives an overview of Clone, Push, Pull Fast Forward Merge Merge with conflict case.",
+      "videoID":"QYhyAyqsg4g"
+    },
+    {
+      "title":"TortoiseGit Demo II",
+      "runtime":"18:04",
+      "description":"This session deals with Creating local repository, creating branches, merging scenarios testing gitignore practical scenario.",
+      "videoID":"WB183vUcF6I"
+    },
+    {
+      "title":"Git with Visual Studio",
+      "runtime":"18:16",
+      "description":"This session deals with How to use git with Visual Studio",
+      "videoID":"O23cTOtGV58"
+    },
+    {
+      "title":"Quick Introduction with Bitbucket",
+      "runtime":"7:39",
+      "description":"This session discusses This gives a quick introduction of bitbucket + It is for beginners.",
+      "videoID":"qZVeru8i2Ss"
+    }
+  ]
+}
