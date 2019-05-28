@@ -1,5 +1,5 @@
 <?php
-$burl='http://localhost/pucitx/';
+$burl='';
 ?>
 <!doctype html>
 <html lang="en">

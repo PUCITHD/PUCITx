@@ -1,5 +1,5 @@
 <?php
-$burl='http://localhost/pucitx/';
+$burl='';
 $courses = array_diff(scandir('courses_data'), array('..', '.'));
 if (in_array($slug,$courses)){
   $course=json_decode(file_get_contents($burl."courses_data/".$slug."/outline.json"));

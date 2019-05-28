@@ -1,5 +1,5 @@
 <?php
-$burl='http://localhost/pucitx/';
+$burl='';
 $courses = array_diff(scandir('courses_data'), array('..', '.'));
 ?>
 <!doctype html>
