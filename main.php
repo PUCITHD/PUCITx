@@ -2,9 +2,30 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>PUCITx</title>
+    <title>PUCITx by PUCIT Help Desk</title>
+
+    <meta name="description" content="PUCITx is a project of PUCIT Help Desk. We gather lectures of PUCIT Instructors and provide them on a single platform hence making sure that all the knowledge needed by you is just a click away. It is designed to enlighten everyone to enhance teaching and learning skills on-campus, online, and beyond." />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="keywords" content="PUCIT,help,desk,pucithd,team, PUCITx" />
+           <!-- Twitter Card data -->
+    <meta name="twitter:card" content="PUCITx by PUCIT Help Desk">
+    <meta name="twitter:site" content="@PUCITx">
+    <meta name="twitter:title" content="PUCITx by PUCIT Help Desk">
+    <meta name="twitter:creator" content="@PUCITx">
+          <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
+
+          <!-- Open Graph data -->
+    <meta property="og:title" content="About PUCITx" />
+    <meta property="og:description" content="PUCITx is a project of PUCIT Help Desk. We gather lectures of PUCIT Instructors and provide them on a single platform hence making sure that all the knowledge needed by you is just a click away. It is designed to enlighten everyone to enhance teaching and learning skills on-campus, online, and beyond." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://pucitx.pucithd.com/" />
+    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/logo.png" />
+    <meta property="og:site_name" content="PUCITx" />
+    <meta property="fb:app_id" content="544341492343243" />
+    <meta property="fb:admins" content="100001633757789" />
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
 
