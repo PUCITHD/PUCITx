@@ -1,8 +1,8 @@
 <?php
 $burl='/';
-$courses = array_diff(scandir('courses_data'), array('..', '.'));
+$courses = array_diff(scandir('./courses_data'), array('..', '.'));
 if (in_array($slug,$courses)){
-  $course=json_decode(file_get_contents($burl."courses_data/".$slug."/outline.json"));
+  $course=json_decode(file_get_contents("./courses_data/".$slug."/outline.json"));
 ?>
 <!doctype html>
 <html lang="en">

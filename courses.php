@@ -1,6 +1,6 @@
 <?php
 $burl='/';
-$courses = array_diff(scandir('courses_data'), array('..', '.'));
+$courses = array_diff(scandir('./courses_data'), array('..', '.'));
 ?>
 <!doctype html>
 <html lang="en">
