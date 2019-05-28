@@ -1,5 +1,5 @@
 <?php
-$burl='';
+$burl='/';
 ?>
 <!doctype html>
 <html lang="en">
