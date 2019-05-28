@@ -6,8 +6,28 @@ $courses = array_diff(scandir('./courses_data'), array('..', '.'));
 <html lang="en">
   <head>
     <title>All Courses | PUCITx</title>
+    <meta name="description" content="List of all courses offered on PUCITx" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="keywords" content="PUCIT,help,desk,pucithd,team, PUCITx" />
+           <!-- Twitter Card data -->
+    <meta name="twitter:card" content="All Courses | PUCITx">
+    <meta name="twitter:site" content="@PUCITx">
+    <meta name="twitter:title" content="All Courses | PUCITx">
+    <meta name="twitter:creator" content="@PUCITx">
+          <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
+
+          <!-- Open Graph data -->
+    <meta property="og:title" content="All Courses | PUCITx" />
+    <meta property="og:description" content="List of all courses offered on PUCITx" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://pucitx.pucithd.com/courses/" />
+    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/logo.png" />
+    <meta property="og:site_name" content="PUCITx" />
+    <meta property="fb:app_id" content="544341492343243" />
+    <meta property="fb:admins" content="100001633757789" />
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
 

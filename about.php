@@ -8,6 +8,24 @@ $burl='/';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="keywords" content="PUCIT,help,desk,pucithd,team, PUCITx" />
+           <!-- Twitter Card data -->
+    <meta name="twitter:card" content="About PUCITx">
+    <meta name="twitter:site" content="@PUCITx">
+    <meta name="twitter:title" content="About PUCITx">
+    <meta name="twitter:creator" content="@PUCITx">
+          <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
+
+          <!-- Open Graph data -->
+    <meta property="og:title" content="About PUCITx" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://pucitx.pucithd.com/about/" />
+    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/logo.png" />
+    <meta property="og:site_name" content="PUCITx" />
+    <meta property="fb:app_id" content="544341492343243" />
+    <meta property="fb:admins" content="100001633757789" />
+
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
 
     <link rel="stylesheet" href="<?php echo $burl; ?>assets/css/bootstrap.css">
