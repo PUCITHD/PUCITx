@@ -72,13 +72,7 @@ if (in_array($slug,$courses)){
   </head>
   <body>
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=745296145630598&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3&appId=745296145630598&autoLogAppEvents=1"></script>
     <header role="banner">
 
       <nav class="navbar navbar-expand-md navbar-dark bg-light">
@@ -197,7 +191,7 @@ if (in_array($slug,$courses)){
 
     <section class="site-section bg-light">
       <div class="container">
-        <div class="fb-comments" data-href="https://pucitx.pucithd.com/course/<?php echo $slug; ?>" data-width="100%"></div>
+        <div class="fb-comments" data-href="http://pucitx.pucithd.com/course/<?php echo $slug; ?>" data-width="100%"></div>
       </div>
     </section>
     <!-- END section -->
@@ -269,6 +263,7 @@ if (in_array($slug,$courses)){
     // document ready
     });
     </script>
+    <?php include_once 'tracking.php'; ?>
   </body>
 </html>
 <?php } ?>

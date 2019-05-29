@@ -18,7 +18,7 @@
     <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
 
           <!-- Open Graph data -->
-    <meta property="og:title" content="About PUCITx" />
+    <meta property="og:title" content="PUCITx by PUCIT Help Desk" />
     <meta property="og:description" content="PUCITx is a project of PUCIT Help Desk. We gather lectures of PUCIT Instructors and provide them on a single platform hence making sure that all the knowledge needed by you is just a click away. It is designed to enlighten everyone to enhance teaching and learning skills on-campus, online, and beyond." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://pucitx.pucithd.com/" />
@@ -217,5 +217,6 @@
 
 
     <script src="assets/js/main.js"></script>
+    <?php include_once 'tracking.php'; ?>
   </body>
 </html>

@@ -168,5 +168,6 @@ $burl='/';
 
 
     <script src="<?php echo $burl; ?>assets/js/main.js"></script>
+    <?php include_once 'tracking.php'; ?>
   </body>
 </html>

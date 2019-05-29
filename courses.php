@@ -185,5 +185,6 @@ $courses = array_diff(scandir('./courses_data'), array('..', '.'));
 
 
     <script src="<?php echo $burl; ?>assets/js/main.js"></script>
+    <?php include_once 'tracking.php'; ?>
   </body>
 </html>
