@@ -72,7 +72,7 @@ if (in_array($slug,$courses)){
   </head>
   <body>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3&appId=745296145630598&autoLogAppEvents=1"></script>
+    <script async defer crossorigin="anonymous" src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3&appId=745296145630598&autoLogAppEvents=1"></script>
     <header role="banner">
 
       <nav class="navbar navbar-expand-md navbar-dark bg-light">
