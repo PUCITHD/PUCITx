@@ -72,7 +72,13 @@ if (in_array($slug,$courses)){
   </head>
   <body>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3&appId=745296145630598&autoLogAppEvents=1"></script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=745296145630598&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <header role="banner">
 
       <nav class="navbar navbar-expand-md navbar-dark bg-light">
