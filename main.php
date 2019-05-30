@@ -1,4 +1,4 @@
-<?php $courses = array_diff(scandir('courses_data'), array('..', '.')); ?>
+<?php $courses = array_diff(scandir('./courses_data'), array('..', '.')); ?>
 <!doctype html>
 <html lang="en">
   <head>
