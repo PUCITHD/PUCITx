@@ -17,14 +17,14 @@ $courses = array_diff(scandir('./courses_data'), array('..', '.'));
     <meta name="twitter:title" content="All Courses | PUCITx">
     <meta name="twitter:creator" content="@PUCITx">
           <!-- Twitter Summary card images must be at least 120x120px -->
-    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
+    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/social.png">
 
           <!-- Open Graph data -->
     <meta property="og:title" content="All Courses | PUCITx" />
     <meta property="og:description" content="List of all courses offered on PUCITx" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://pucitx.pucithd.com/courses/" />
-    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/logo.png" />
+    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/social.png" />
     <meta property="og:site_name" content="PUCITx" />
     <meta property="fb:app_id" content="544341492343243" />
     <meta property="fb:admins" content="100001633757789" />

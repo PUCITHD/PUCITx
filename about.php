@@ -15,13 +15,13 @@ $burl='/';
     <meta name="twitter:title" content="About PUCITx">
     <meta name="twitter:creator" content="@PUCITx">
           <!-- Twitter Summary card images must be at least 120x120px -->
-    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/logo.png">
+    <meta name="twitter:image" content="http://pucitx.pucithd.com/assets/images/social.png">
 
           <!-- Open Graph data -->
     <meta property="og:title" content="About PUCITx" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://pucitx.pucithd.com/about/" />
-    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/logo.png" />
+    <meta property="og:image" content="http://pucitx.pucithd.com/assets/images/social.png" />
     <meta property="og:site_name" content="PUCITx" />
     <meta property="fb:app_id" content="544341492343243" />
     <meta property="fb:admins" content="100001633757789" />
@@ -113,7 +113,7 @@ $burl='/';
           </div>
           <div class="col-md-1 order-2"></div>
           <div class="col-md-5 order-3">
-            <h2 class="mb-4">First, We Love To Teach</h2>
+            <h2 class="mb-4">Second, We Love To Teach</h2>
             <p>Instructors from PUCIT have passion to spread the knowledge. They are genuinely interested in helping others develop new capacities. That’s why they are making videos and distributing them on video hosting platforms. If anyone is able to learn something from our site, we will move closer to our goal. PUCITx aims to become a collaborative effort of our faculty representing the quality education being provided in PUCIT and its broadened view of sharing it with those learners who are unable to join us.</p>
             <p>PUCITx will gather videos and convert them into the courses and provide them with a proper platform. So that there is a vast ocean of knowledge ahead, from which anyone can gain one’s fill. </p>
           </div>
