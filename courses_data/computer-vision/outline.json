@@ -1,0 +1,295 @@
+{
+  "title": "Computer Vision",
+  "description": "Learn Computer Vision and Digital Image Processing.",
+  "lecturer": "Kashif Murtaza",
+  "lectures": [
+    {
+      "title": "Introduction to CV part01",
+      "runtime": "5:15",
+      "description": "",
+      "videoID": "x08GkpUCNIE"
+    },
+    {
+      "title": "Introduction to CV part02",
+      "runtime": "4:01",
+      "description": "",
+      "videoID": "tWoybIL0Umo"
+    },
+    {
+      "title": "Introduction to CV part03",
+      "runtime": "47:09",
+      "description": "",
+      "videoID": "pjW0NCdr21U"
+    },
+    {
+      "title": "Introduction to CV part04",
+      "runtime": "22.46",
+      "description": "",
+      "videoID": "OWNDu4lqqt4"
+    },
+    {
+      "title": "Camera Calibration I part01",
+      "runtime": "47:09",
+      "description": "",
+      "videoID": "KbMXvCQmHVI"
+    },
+    {
+      "title": "Camera Calibration I part02",
+      "runtime": "23:24",
+      "description": "",
+      "videoID": "6lMo7gzYjig"
+    },
+    {
+      "title": "Camera Calibration II part01",
+      "runtime": "15:13",
+      "description": "",
+      "videoID": "fbL-W_biWiM"
+    },
+    {
+      "title": "Camera Calibration II part02",
+      "runtime": "47:08",
+      "description": "",
+      "videoID": "WvwHphxtiS4"
+    },
+    {
+      "title": "Camera Calibration II part03",
+      "runtime": "14:04",
+      "description": "",
+      "videoID": "AarxBp-Isps"
+    },
+    {
+      "title": "From Camera Image points to Real World Coordinate Mapping part01",
+      "runtime": "8:56",
+      "description": "",
+      "videoID": "0sPwa1P5H20"
+    },
+    {
+      "title": "From Camera Image points to Real World Coordinate Mapping part02",
+      "runtime": "47:08",
+      "description": "",
+      "videoID": "V2zthq3QP14"
+    },
+    {
+      "title": "From Camera Image points to Real World Coordinate Mapping part03",
+      "runtime": "9:57",
+      "description": "",
+      "videoID": "Kt0a-fYtpoA"
+    },
+    {
+      "title": "Finding Out Camera Matrix part01",
+      "runtime": "8:01",
+      "description": "",
+      "videoID": "nLH2wOTPo-o"
+    },
+    {
+      "title": "Finding Out Camera Matrix part02",
+      "runtime": "47:09",
+      "description": "",
+      "videoID": "-ytUxo7ZTgw"
+    },
+    {
+      "title": "Finding Out Camera Matrix part03",
+      "runtime": "15:57",
+      "description": "",
+      "videoID": "VEH5EbSUb3I"
+    },
+    {
+      "title": "Revision and Application of SVD and finding Camera Matrix part01",
+      "runtime": "11:23",
+      "description": "",
+      "videoID": "IPIK9Pa_A8I"
+    },
+    {
+      "title": "Revision and Application of SVD and finding Camera Matrix part02",
+      "runtime": "47:09",
+      "description": "",
+      "videoID": "-t04LcKx4OU"
+    },
+    {
+      "title": "Revision and Application of SVD and finding Camera Matrix part03",
+      "runtime": "2:39",
+      "description": "",
+      "videoID": "masq1afjln4"
+    },
+    {
+      "title": "Revision and Application of SVD and finding Camera Matrix part04",
+      "runtime": "17:35",
+      "description": "",
+      "videoID": "V4hCz11sk8o"
+    },
+    {
+      "title": "Isometry part01",
+      "runtime": "17:38",
+      "description": "",
+      "videoID": "pb7L_rxWlxM"
+    },
+    {
+      "title": "Isometry part02",
+      "runtime": "9:27",
+      "description": "",
+      "videoID": "ta6udK0DyP8"
+    },
+    {
+      "title": "Isometry part03",
+      "runtime": "37:56",
+      "description": "",
+      "videoID": "yuz3GhZ8R9w"
+    },
+    {
+      "title": "Isometry part04",
+      "runtime": "10:42",
+      "description": "",
+      "videoID": "egmaGjKXw_A"
+    },
+    {
+      "title": "Orthogonal Projections part01",
+      "runtime": "23:46",
+      "description": "",
+      "videoID": "LOZoUVdo2Mg"
+    },
+    {
+      "title": "Orthogonal Projections part02",
+      "runtime": "41:44",
+      "description": "",
+      "videoID": "lleKT1cowmE"
+    },
+    {
+      "title": "Eigen Values and Eigen Vectors + SVD part01",
+      "runtime": "8:57",
+      "description": "",
+      "videoID": "bx2Hk5jUBsw"
+    },
+    {
+      "title": "Eigen Values and Eigen Vectors + SVD part02",
+      "runtime": "12:44",
+      "description": "",
+      "videoID": "R6REOxw1GgE"
+    },
+    {
+      "title": "Eigen Values and Eigen Vectors + SVD part03",
+      "runtime": "1:58",
+      "description": "",
+      "videoID": "Ir7dDVlUhsY"
+    },
+    {
+      "title": "Eigen Values and Eigen Vectors + SVD part04",
+      "runtime": "24:48",
+      "description": "",
+      "videoID": "gO14OU1dubk"
+    },
+    {
+      "title": "Eigen Values and Eigen Vectors + SVD part05",
+      "runtime": "33:14",
+      "description": "",
+      "videoID": "kMEKXjjzFGM"
+    },
+    {
+      "title": "Discussion on Assignment",
+      "runtime": "19:33",
+      "description": "",
+      "videoID": "6Epkaeb9-N8"
+    },
+    {
+      "title": "Discussion on Assignment II",
+      "runtime": "12:02",
+      "description": "",
+      "videoID": "cdsavWGw7ws"
+    },
+    {
+      "title": "Homography",
+      "runtime": "33:53",
+      "description": "",
+      "videoID": "TWsXCPWN4_Q"
+    },
+    {
+      "title": "Homography II part01",
+      "runtime": "21:52",
+      "description": "",
+      "videoID": "qn4voRXdSzI"
+    },
+    {
+      "title": "Homography II part02",
+      "runtime": "47:09",
+      "description": "",
+      "videoID": "LMWVTvWwTbk"
+    },
+    {
+      "title": "Homography II part03",
+      "runtime": "2:07",
+      "description": "",
+      "videoID": "FZiwM9bjMss"
+    },
+    {
+      "title": "Revision QA Session part01",
+      "runtime": "3:37",
+      "description": "",
+      "videoID": "E8wbvrhngK0"
+    },
+    {
+      "title": "Revision QA Session part02",
+      "runtime": "22:07",
+      "description": "",
+      "videoID": "9CHsKLR3vMw"
+    },
+    {
+      "title": "Revision QA Session part03",
+      "runtime": "15:47",
+      "description": "",
+      "videoID": "QrsLkpaXAwU"
+    },
+    {
+      "title": "Creating Panorama part01",
+      "runtime": "26:11",
+      "description": "Problem Formulation",
+      "videoID": "gzDg5oSiCoc"
+    },
+    {
+      "title": "Creating Panorama part02",
+      "runtime": "9:52",
+      "description": "Problem Formulation II and How to do Rotation on Image",
+      "videoID": "p4jVeIku0gA"
+    },
+    {
+      "title": "Creating Panorama part03",
+      "runtime": "0:37",
+      "description": "",
+      "videoID": "YSQgdisaVSY"
+    },
+    {
+      "title": "Creating Panorama part04",
+      "runtime": "32:52",
+      "description": "Problem Formulation",
+      "videoID": "cdrI85xzXto"
+    },
+    {
+      "title": "Creating Panorama II part01",
+      "runtime": "41:23",
+      "description": "Implementation Details I",
+      "videoID": "-ras40p29Kg"
+    },
+    {
+      "title": "Creating Panorama II part02",
+      "runtime": "0:56",
+      "description": "Implementation Details II",
+      "videoID": "2sDe1y4gDeg"
+    },
+    {
+      "title": "Creating Panorama II part03",
+      "runtime": "35:47",
+      "description": "Implementation Details III",
+      "videoID": "fs2D8VHCWuo"
+    },
+    {
+      "title": "Finding Flat, Edge and Corner Points (Theoretical Ground)",
+      "runtime": "32:13",
+      "description": "",
+      "videoID": "UkGSwU8onu4"
+    },
+    {
+      "title": "Finding Flat, Edge and Corner Points Mathematical Formulation",
+      "runtime": "42:41",
+      "description": "",
+      "videoID": "3i38keExLYs"
+    }
+  ]
+}
