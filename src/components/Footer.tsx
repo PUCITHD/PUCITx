@@ -2,46 +2,43 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0a14] border-t border-white/[0.06] pt-12 pb-8 px-6 text-center">
-      <div className="max-w-xl mx-auto">
-        <div className="flex items-center justify-center gap-2 text-xl font-extrabold text-white mb-2">
+    <footer className="hidden md:block border-t border-white/[0.06] py-5 px-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between text-xs text-white/30">
+        <div className="flex items-center gap-1.5 font-semibold text-white/50">
           <span>🎓</span>
-          <span>PUCIT<span className="text-primary">x</span></span>
+          <span>
+            PUCIT<span className="text-primary">x</span>
+          </span>
+          <span className="font-normal text-white/25 ml-1">
+            © {new Date().getFullYear()}
+          </span>
         </div>
-        <p className="text-white/50 text-sm mb-4">
-          Free &amp; open learning from PUCIT — Punjab University College of
-          Information Technology.
-        </p>
-        <div className="flex items-center justify-center gap-2 text-sm">
+        <div className="flex items-center gap-3">
           <a
             href="https://github.com/PUCITHD"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-primary font-medium hover:underline"
+            className="text-white/35 hover:text-white/60 transition-colors no-underline"
           >
             GitHub
           </a>
-          <span className="text-white/20">·</span>
+          <span className="text-white/15">·</span>
           <a
             href="http://pucit.edu.pk"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-primary font-medium hover:underline"
+            className="text-white/35 hover:text-white/60 transition-colors no-underline"
           >
-            PUCIT Official
+            PUCIT
           </a>
-          <span className="text-white/20">·</span>
+          <span className="text-white/15">·</span>
           <Link
             to="/contribute"
-            className="text-primary font-medium hover:underline"
+            className="text-white/35 hover:text-white/60 transition-colors no-underline"
           >
             Contribute
           </Link>
         </div>
-        <p className="mt-6 text-white/30 text-xs">
-          © {new Date().getFullYear()} PUCITx. All course content belongs to
-          respective instructors.
-        </p>
       </div>
     </footer>
   );

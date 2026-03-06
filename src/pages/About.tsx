@@ -1,6 +1,14 @@
+import SEO from "../components/SEO";
+
 export default function About() {
   return (
-    <div className="max-w-3xl mx-auto px-6 pt-12 pb-20">
+    <div className="animate-page-enter max-w-3xl mx-auto px-4 md:px-6 pt-6 md:pt-12 pb-24 md:pb-20">
+      <SEO
+        title="About"
+        description="Learn about PUCITx — a free, open online learning platform bringing high-quality CS education from PUCIT to everyone."
+        path="/about"
+      />
+
       <h1 className="text-3xl lg:text-4xl font-extrabold text-white text-center mb-12">
         About PUCITx
       </h1>
@@ -35,7 +43,7 @@ export default function About() {
           ].map((inst) => (
             <div
               key={inst.initials}
-              className="bg-white/[0.04] border border-white/[0.08] rounded-2xl p-8 text-center transition-colors duration-250 hover:border-primary/30"
+              className="bg-white/[0.04] border border-white/[0.08] rounded-2xl p-8 text-center transition-all duration-250 hover:border-primary/30 hover:-translate-y-0.5"
             >
               <div className="w-15 h-15 rounded-full bg-gradient-to-br from-primary to-primary-light flex items-center justify-center mx-auto mb-4 font-extrabold text-lg text-white">
                 {inst.initials}

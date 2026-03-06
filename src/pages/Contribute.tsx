@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
+import SEO from "../components/SEO";
 
 export default function Contribute() {
   return (
-    <div className="max-w-4xl mx-auto px-6 pt-12 pb-20">
+    <div className="animate-page-enter max-w-4xl mx-auto px-4 md:px-6 pt-6 md:pt-12 pb-24 md:pb-20">
+      <SEO
+        title="Contribute"
+        description="Help build PUCITx — contribute code, courses, documentation, or ideas to our open-source learning platform."
+        path="/contribute"
+      />
+
       <h1 className="text-3xl lg:text-4xl font-extrabold text-white text-center mb-4">
         Contribute to PUCITx
       </h1>
