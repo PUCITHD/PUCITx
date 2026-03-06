@@ -1,56 +1,73 @@
-# What is PUCITx?
+# React + TypeScript + Vite
 
-PUCITx is a project of PUCIT Help Desk. We gather lectures of PUCIT Instructors and provide them on a single platform hence making sure that all the knowledge needed by you is just a click away. It is designed to enlighten everyone to enhance teaching and learning skills on-campus, online, and beyond.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Contributing
+Currently, two official plugins are available:
 
-```php
-require 'flight/Flight.php';
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Flight::route('/', function(){
-    echo 'hello world!';
-});
+## React Compiler
 
-Flight::start();
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
 
-[Learn more](http://flightphp.com/learn)
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-# Requirements
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-Flight requires `PHP 5.3` or greater.
-
-# License
-
-PUCITx is released under the [GNU GPLv3](https://github.com/PUCITHD/PUCITx/blob/master/LICENSE) license.
-Flight is released under the [MIT](http://flightphp.com/license) license.
-
-# Installation
-
-1\. Download the files.
-
-You can [download](https://github.com/PUCITHD/PUCITx/archive/master.zip) them directly 
-and extract them to your web directory.
-
-2\. Configure your webserver.
-
-For *Apache*, edit your `.htaccess` file with the following:
-
-```
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [QSA,L]
-```
-
-**Note**: If you need to use flight in a subdirectory add the line `RewriteBase /subdir/` just after `RewriteEngine On`.
-
-For *Nginx*, add the following to your server declaration:
-
-```
-server {
-    location / {
-        try_files $uri $uri/ /index.php;
-    }
-}
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
